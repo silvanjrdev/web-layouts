@@ -1,0 +1,41 @@
+/*GLOBAL SETTINGS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #302f2f;
+}
+
+.header-top {
+    height: 50px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: #F8F1EB;
+    background-color: #302f2f;
+    border-bottom: 1px solid #424242;
+}
+
+.button {
+    padding: 5px 10px;
+
+    background-color: #ef1c2b;
+    border-radius: 10px;
+    border-bottom: 2px solid#302f2f;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #b8b8b8;
+    color: #555555;
+    border-bottom: 1px solid#302f2f;
+}
